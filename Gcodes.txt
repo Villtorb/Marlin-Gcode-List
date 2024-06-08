@@ -17,17 +17,11 @@ G26: Mesh Validation Pattern
 G27: Park toolhead
 G28: Auto Home
 G29: Bed Leveling
-G29: Bed Leveling (3-Point)
-G29: Bed Leveling (Linear)
-G29: Bed Leveling (Manual)
-G29: Bed Leveling (Bilinear)
-G29: Bed Leveling (Unified)
 G30: Single Z-Probe
 G31: Dock Sled
 G32: Undock Sled
 G33: Delta Auto Calibration
-G34: Z Steppers Auto-Alignment
-G34: Mechanical Gantry Calibration
+G34: Z Steppers Auto-Alignment; Mechanical Gantry Calibration
 G35: Tramming Assistant
 G38.2: Probe target
 G38.3: Probe target
@@ -81,8 +75,7 @@ M32: Select and Start
 M33: Get Long Path
 M34: SDCard Sorting
 M42: Set Pin State
-M43: Debug Pins
-M43 T: Toggle Pins
+M43: Debug Pins; Toggle Pins
 M48: Probe Repeatability Test
 M73: Set Print Progress
 M75: Start Print Job Timer
@@ -218,10 +211,8 @@ M593: ZV Input Shaping
 M600: Filament Change
 M603: Configure Filament Change
 M605: Multi Nozzle Mode
-M665: Delta Configuration
-M665: SCARA Configuration
-M666: Set Delta endstop adjustments
-M666: Set dual endstop offsets
+M665: Delta Configuration; SCARA Configuration
+M666: Set Delta endstop adjustments; Set dual endstop offsets
 M672: Duet Smart Effector sensitivity
 M701: Load filament
 M702: Unload filament
