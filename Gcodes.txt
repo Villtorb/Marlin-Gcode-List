@@ -58,7 +58,7 @@ M10: Vacuum / Blower Control
 M11: Vacuum / Blower Control
 M16: Expected Printer Check
 M17: Enable Steppers
-M18, M84: Disable steppers
+M18: Disable steppers
 M20: List SD Card
 M21: Init SD card
 M22: Release SD card
@@ -86,6 +86,7 @@ M80: Power On
 M81: Power Off
 M82: E Absolute
 M83: E Relative
+M84: Disable steppers
 M85: Inactivity Shutdown
 M86: Hotend Idle Timeout
 M87: Disable Hotend Idle Timeout
